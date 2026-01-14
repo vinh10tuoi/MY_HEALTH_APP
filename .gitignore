@@ -1,35 +1,21 @@
-# ===== Python/Django =====
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.sqlite3
-*.log
-.env
-.env.*
-
-# Virtualenv
+# Python / Django
 .venv/
 venv/
-ENV/
-env/
+**/.venv/
+**/venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+db.sqlite3
+*.sqlite3
 
-# Django
-media/
-staticfiles/
-
-# ===== Node / React Native =====
+# Node / React Native
 node_modules/
+**/node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .expo/
-.expo-shared/
 dist/
 build/
-
-# ===== OS / Editor =====
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
